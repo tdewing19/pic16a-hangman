@@ -23,7 +23,7 @@ class Hangman:
               None
         '''
         self.words = [word.strip() for word in word_file.readlines()]
-        #creates a list of words extractedfrom txt file  
+        #creates a list of words extracted from txt file  
         self.mystery_word = random.choice(self.words)
         #mystery word chosen from list of words randomly
         self.mystery_word_list = list(self.mystery_word)
