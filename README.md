@@ -28,7 +28,7 @@ python main.py
 
 ## Scope and Limitations:
 
-The words in this game are currently limited to the 832 words from the `words.txt` file used in the project, and do not encompass all possible dictionary words, notably excluding acronyms, proper nouns, and words with punctuation marks such as apostrophes and hyphens. This game is also built for the player to have exactly 6 lives, no less and no more. Hopefully this game can be expanded in the future to be able to handle a larger variety of words and adjust the number of lives the player can start out with.
+The words in this game are currently limited to the 832 words from the `words.txt` file used in the project, and do not encompass all possible words in the English dictionary, notably excluding acronyms, proper nouns, and words with punctuation marks such as apostrophes and hyphens. This game is also built for the player to have exactly 6 lives, no less and no more. Hopefully this game can be expanded in the future to be able to handle a larger variety of words and adjust the number of lives the player can start out with.
 
 ## Acknowledgement:
 
