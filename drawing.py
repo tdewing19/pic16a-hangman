@@ -14,6 +14,7 @@ def drawing(lives):
     '''
    
     if lives == 6:
+    #initial drawing
         print('''
                 ____
                |    
@@ -70,6 +71,7 @@ def drawing(lives):
                ''')
     
     else:
+    #prints when user has lost all lives
         print('''
                 ___
                |   O
