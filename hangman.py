@@ -23,13 +23,20 @@ class Hangman:
               None
         '''
         self.words = [word.strip() for word in word_file.readlines()]
+        #creates a list of words extractedfrom txt file  
         self.mystery_word = random.choice(self.words)
+        #mystery word chosen from list of words randomly
         self.mystery_word_list = list(self.mystery_word)
         self.life_counter = 6
         self.guess = ""
         self.guessed_word = ["_" for i in range(len(self.mystery_word))]
+        #holds a series of dashes and that is modified
+        #depending on the users correct guesses
         self.guessed_letters = []
+        #holds all user guessed letters
         self.letter_bank = list("{abcdefghijklmnopqrstuvwxyz}")
+        #holds letters that the user hasn't guessed
+        #updates as user makes new guesses
   
     def life_deductor(self, n):
         '''
@@ -50,6 +57,7 @@ class Hangman:
               None
         '''
         self.guessed_letters.append(self.guess)
+        #adds current guess to guessed letters list
 
     def remove_guess(self):
         '''
@@ -62,3 +70,5 @@ class Hangman:
               None
         '''
         self.letter_bank.remove(self.guess)
+        #removes guessed letter from the letter bank
+        #that stores letters the user hasn't guessed yet
