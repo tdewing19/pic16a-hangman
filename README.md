@@ -27,8 +27,25 @@ python main.py
 ```
 
 ## Demo File Description:
+**Hangman Demonstration**    
+<p float="left">
+  <img width="334" alt="Screen Shot 2022-03-11 at 4 08 07 PM" src="https://user-images.githubusercontent.com/97066669/157994427-e33c81fa-3f73-49f9-8cea-181526a589d0.png">
+  <img width="345" alt="Screen Shot 2022-03-11 at 4 08 19 PM" src="https://user-images.githubusercontent.com/97066669/157994429-1038b144-da80-480a-97f8-8e8a4ba54acb.png"> 
+</p>
 
+Once the repository has been cloned on your computer and the required packages have been installed, the demo file can be run using the the following line: 
 
+```
+python main.py
+```
+The outputs of the game include the following:
+  1. Welcome message and initial drawing
+  2. Prompts for the user to input their guess while the game is ongoing
+  3. Prompts for user confirmation if guess consisting of more than one letter
+  4. Succesful or unsuccesful guess message with a hangman drawing image while the game is ongoing
+  5. Winning or losing message once one of the criteria for ending the game has been met
+
+The images above are of a single playthrough of our hangman code. As can be seen, the user is first shown some welcome text and a hangman drawing. The user is then repeatedly prompted to enter a guess while they haven't guessed the word or lost all their lives. If they guess a single letter, the user will be immediately informed whether or not their guess was succesful and the hangman drawing and lives remaining statement will reflect that. Also there is an instance where the user's guess contains more than one letter and they are asked to confirm their guess. Since the user confirmed this guess and the guess was in fact the mystery word, a congratulatory statement is the last output to the system.
 
 
 ## Scope and Limitations:
