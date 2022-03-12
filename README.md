@@ -14,6 +14,12 @@ To run the hangman game yourself first clone this repository on your local compu
 git clone https://github.com/tdewing19/pic16a-hangman.git && cd pic16a-hangman
 ```
 
+Or if you have an SSH key, use:
+
+```
+git@github.com:tdewing19/pic16a-hangman.git
+```
+
 To install the package requirements on your local computer, use the following line:
 
 ```
