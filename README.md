@@ -41,11 +41,11 @@ python main.py
 The outputs of the game include the following:
   1. Welcome message and initial drawing
   2. Prompts for the user to input their guess while the game is ongoing
-  3. Prompts for user confirmation if guess consisting of more than one letter
-  4. Succesful or unsuccesful guess message with a hangman drawing image while the game is ongoing
+  3. Prompts for user confirmation if guess consists of more than one letter
+  4. Successful or unsuccessful guess message with an updated hangman drawing image while the game is ongoing
   5. Winning or losing message once one of the criteria for ending the game has been met
 
-The images above are of a single playthrough of our hangman code. As can be seen, the user is first shown some welcome text and a hangman drawing. The user is then repeatedly prompted to enter a guess while they haven't guessed the word or lost all their lives. If they guess a single letter, the user will be immediately informed whether or not their guess was succesful and the hangman drawing and lives remaining statement will reflect that. Also there is an instance where the user's guess contains more than one letter and they are asked to confirm their guess. Since the user confirmed this guess and the guess was in fact the mystery word, a congratulatory statement is the last output to the system.
+The images above are of a single playthrough of our hangman code. As can be seen, the user is first shown some welcome text and a hangman drawing. The user is then repeatedly prompted to enter a guess while they haven't guessed the word or lost all their lives. If they guess a single letter, the user will be immediately informed whether or not their guess was succesful and the hangman drawing and lives remaining statement will reflect that. Also there is an instance where the user's guess contains more than one letter, usually to guess the entire word, and they are asked to confirm their guess. Since the user confirmed this guess and the guess was in fact the mystery word, a congratulatory statement is the last output to the system.
 
 
 ## Scope and Limitations:
