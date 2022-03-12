@@ -17,7 +17,7 @@ git clone https://github.com/tdewing19/pic16a-hangman.git && cd pic16a-hangman
 Or if you have an SSH key, use:
 
 ```
-git@github.com:tdewing19/pic16a-hangman.git
+git clone git@github.com:tdewing19/pic16a-hangman.git && cd pic16a-hangman
 ```
 
 To install the package requirements on your local computer, use the following line:
